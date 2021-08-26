@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<header>
+	<title>Greek Sentiment Analysis</title>
+	<h1>Greek Sentiment Analysis</h1>
+
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/style.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+		</style>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+		</div>
+		<h3>Εισαγωγή πρότασης προς ανάλυση:</h3>
+		
+		<form action="{{ url_for('predict')}}" method="POST">
+			<div class="inputbox">
+			<textarea name="message" rows="4" cols="50"></textarea>
+			<br/>
+			<input type="submit" class="btn-info" value="πρόβλεψη">
+		
+	</div>
+	</header>
+
+
+
+</body>
+</html>
