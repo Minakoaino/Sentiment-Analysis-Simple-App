@@ -6,6 +6,7 @@ The model has been trained in covid-19 vaccine greek tweets with **Support Vecto
 <br>For this project, I used Flask web framework, Python and some HTML and CSS for the front end of the page.
 How to run this app:
 * Clone this repository
+* Install requirements file with: pip install -r requirements.txt
 * Run: python3 app.py
 
 (You have to have Flask installed in order to run the app!)
