@@ -1,7 +1,8 @@
 ### This is a simple app that predicts the sentiment of a greek phrase.
 
 The model has been trained in covid-19 vaccine greek tweets with **Support Vector Machines** classifier. 
-It predicts if the input phrase is positive negative or neutral and returns the result.
+<br>The input is the text that the user types. 
+<br>The output we get is whether the sentiment is positive, negative or neutral.
 
 How to run this app:
 * Clone this repository
