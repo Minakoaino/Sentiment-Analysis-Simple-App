@@ -3,7 +3,7 @@
 The model has been trained in covid-19 vaccine greek tweets with **Support Vector Machines** classifier. 
 <br>The input is the text that the user types. 
 <br>The output we get is whether the sentiment is positive, negative or neutral.
-
+<br>For this project, I used Flask web framework, Python and some HTML and CSS for the front end of the page.
 How to run this app:
 * Clone this repository
 * Run: python3 app.py
